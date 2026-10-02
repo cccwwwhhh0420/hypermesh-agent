@@ -1,0 +1,8 @@
+﻿# Core LLM API client (Compatible with DeepSeek, OpenAI, vLLM, Ollama)
+openai>=1.0.0
+
+# Environment variables loader
+python-dotenv>=1.0.0
+
+# Rich terminal interface and formatted logging
+rich>=13.0.0

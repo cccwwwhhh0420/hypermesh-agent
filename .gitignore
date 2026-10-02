@@ -1,0 +1,33 @@
+﻿# Environment variables & API credentials (PROTECT SECRET KEYS)
+.env
+.env.local
+.env.*.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model state runtime dumps
+state/*.json
+hm_agent/state/*.json
+!state/.gitkeep
+!hm_agent/state/.gitkeep
+
+# Logs & temporary files
+*.log
+logs/
